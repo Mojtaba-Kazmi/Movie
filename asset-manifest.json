@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FintechParticeepTest/static/css/main.e42ea8e6.css",
+    "main.js": "/FintechParticeepTest/static/js/main.0295e9a6.js",
+    "static/js/787.c7e85f82.chunk.js": "/FintechParticeepTest/static/js/787.c7e85f82.chunk.js",
+    "static/media/ml-logo.png": "/FintechParticeepTest/static/media/ml-logo.21af5eeb8e2baa2707f7.png",
+    "index.html": "/FintechParticeepTest/index.html",
+    "main.e42ea8e6.css.map": "/FintechParticeepTest/static/css/main.e42ea8e6.css.map",
+    "main.0295e9a6.js.map": "/FintechParticeepTest/static/js/main.0295e9a6.js.map",
+    "787.c7e85f82.chunk.js.map": "/FintechParticeepTest/static/js/787.c7e85f82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e42ea8e6.css",
+    "static/js/main.0295e9a6.js"
+  ]
+}
