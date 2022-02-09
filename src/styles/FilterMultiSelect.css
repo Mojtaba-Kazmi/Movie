@@ -1,0 +1,42 @@
+.Filter__MultiSelect {
+    position: relative;
+    display: block;
+    width: 300px;
+    color: black;
+    margin: 0px 0px 10px 21px;
+  }
+  
+  .Filter__MultiSelect__Dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+    /* top: 0px; */
+    padding-top: 40px;
+    top: 7px;
+    box-shadow: 0px 0px 6px gray;
+    left: 0px;
+    background-color: white;
+   
+    /* z-index: -1; */
+  }
+  
+  .Filter__MultiSelect__Label {
+    /* margin: 10px 0; */
+    padding: 10px 5px 10px 20px;
+    z-index: 10;
+    position: relative;
+    background-color: white;
+  }
+  
+  .Filter__MultiSelect:hover .Filter__MultiSelect__Dropdown {
+    display: block !important;
+  }
+  
+  .Filter__MultiSelect__Dropdown span:nth-child(n) {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 0.5px dotted gray;
+    align-items: center;
+    padding: 5px 5px;
+  }

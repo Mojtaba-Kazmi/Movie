@@ -1,0 +1,43 @@
+.Pagination {
+    display: flex;
+    list-style: none;
+    color: white;
+    padding: 5px;
+}
+
+.Pagination li {
+    padding: 5px 8px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 2px;
+    height: fit-content;
+    list-style: none;
+    line-height: 20px;
+    cursor: pointer;
+    
+}
+
+
+.Pagination li:hover {
+
+    color: #f90101;
+}
+
+.Pagination li.active {
+    background-color: #f90101;
+    color:  white !important;
+    font-weight: 600;
+    border-color: #f90101;
+}
+
+
+.perPageselector select {
+    border: 1px solid;
+    padding: 8px;
+    outline: none !important;
+    margin: 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  

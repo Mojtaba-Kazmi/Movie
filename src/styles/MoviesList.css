@@ -1,0 +1,7 @@
+.Movies-List-Page .Container {
+    padding-right: 30px;
+    padding-left: 30px;
+    /* justify-contents; */
+    display: flex;
+    flex-wrap: wrap;
+  }

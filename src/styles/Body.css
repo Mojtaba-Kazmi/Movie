@@ -1,0 +1,41 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+
+.App {
+  /* text-align: center; */
+}
+
+.d-flex { display: flex; }
+
+.justify-content-center { justify-content: center; }
+
+.align-items-center { align-items: center; }
+
+.justify-content-start { justify-content: start; }
+
+.align-items-baseline { align-items: baseline;}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.ml-logo {
+	height: 45px;
+	width: 45px;
+}
+
+.ml-title {
+	padding-left: 25px;
+  
+}

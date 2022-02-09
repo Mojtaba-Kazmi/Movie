@@ -1,0 +1,73 @@
+.MovieCard {
+    max-width: 300px;
+    margin: 15px 20px auto;
+    justify-content: space-between;
+    box-shadow: 0.5px 2px 2px gray;
+  }
+  
+  .MovieCard__Body {
+    padding-left: 15px;
+    padding: 10px;
+  }
+  
+  
+  .MovieCard__Image {
+    width: 300px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f90101;
+    
+  }
+  
+  
+  .MovieCard__Category {
+    color: #f90101;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 5px ;
+  }
+  
+  .MovieCard__Title {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 700;
+  }
+  
+  .MovieCard__Actions {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .MovieCard__Actions .Like, .MovieCard__Actions .Dislike, .MovieCard__Actions .Remove {
+    width: fit-content;
+    display: flex;
+    align-items:center;
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .Like img.active, .Dislike img.active, .Remove img.active {
+    width: 40px;
+    height: 40px;
+  }
+
+  .toggleBtn {
+    border: 1px dotted red;
+    cursor: pointer;
+    font-family: inherit !important;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 18px;
+    display: flex;
+    align-items: center;
+    color: #f90101;
+    background-color: white;
+    outline: none;
+   
+  }
+  
